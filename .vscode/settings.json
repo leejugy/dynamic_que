@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "dynamic_que.h": "c",
+        "array": "c",
+        "deque": "c",
+        "vector": "c",
+        "string_view": "c",
+        "*.conf": "bitbake",
+        "*.inc": "bitbake",
+        "que_ctl.h": "c"
+    }
+}
