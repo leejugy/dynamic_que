@@ -49,7 +49,10 @@ int pop_que(dynamic_que_t *q, uint8_t *buffer, size_t buffer_size)
     temp->next = NULL;
     
     free(temp->buf);
+    temp->buf = NULL;
     free(temp);
+    temp = NULL;
+    
     sem_post(&q->sem);
 
     return len;
